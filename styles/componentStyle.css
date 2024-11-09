@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  grid-area: 2/1/3/2;
+  width: 340px;
+  height: 340px;
+}
+
+.big-img{
+  width: 100%;
+}
+
+.lorem {
+  text-align: center;
+  grid-area: 3/1/4/2;
+}
+
+
+
+
+@media screen and (min-width:425px) {
+  .sign-up-btn {
+    background: #fff;
+    border-radius: 50px;
+    padding: 15px 43px;
+    margin: 9px 10px;
+    font-size: 16px;
+  }
+
+  .sign-up-btn:hover {
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 10rem;
+  }
+
+  .create {
+    align-self: flex-end;
+
+  }
+
+  .image {
+    grid-area: 1/2/5/3;
+    background: url("../images/blur.png");
+    background-position: center;
+    width: 821px;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .big-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .p-create {
+    font-size: 25px;
+  }
+
+  .title {
+    align-self: flex-end;
+  }
+
+}
